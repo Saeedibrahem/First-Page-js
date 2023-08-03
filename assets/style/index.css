@@ -14,3 +14,24 @@
 body {
   font-family: "roboto";
 }
+.featured-services{
+padding: 60px 0 ;
+}
+.container{
+  margin: auto;
+}
+.menuShow{
+  /* display:; */
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background: #123456;
+  top: 0;
+  z-index: 1111111111;
+  transform: translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.menuShow.active{
+  transform: translateX(0);
+
+}
